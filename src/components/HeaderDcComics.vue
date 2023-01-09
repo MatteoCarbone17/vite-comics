@@ -64,7 +64,7 @@
 
 <template>
  <section class="container-fluid">
-    <div class="row p-2">
+    <div class="row pt-2">
         <div class="col-5 wrapper d-flex  align-items-center justify-content-center">
             <img src="../assets/img/dc-logo.png" alt="" srcset="">
         </div>

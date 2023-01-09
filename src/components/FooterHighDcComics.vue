@@ -154,9 +154,9 @@ export default{
 
 <template>
     <section>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row text-light">
-                <div class="col-6 d-flex">
+                <div class="col-7 d-flex justify-content-center">
                     <ul>
                         <li v-for="navItem in dcComicsList" >
                             {{ navItem.text  }}
@@ -173,7 +173,7 @@ export default{
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 d-flex">
+                <div class="col-4 d-flex">
                     <img src="../assets/img/dc-logo-bg.png" class="img-fluid"  alt="" srcset="">
                 </div>
             </div>
