@@ -17,10 +17,9 @@ export default {
 </script>
 
 <template>
-
- <FooterDcComics />
  <HeaderDcComics />
  <MainDcComics />
+ <FooterDcComics />
 </template>
 
 <style lang="scss">
