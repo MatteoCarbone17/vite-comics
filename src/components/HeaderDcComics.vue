@@ -70,7 +70,7 @@
         </div>
         <div class="col-7">
             <ul class="d-flex wrapper">
-                <li class="ms-4 d-flex align-items-center" v-for="navItem in HeaderNavItems" >
+                <li class="ms-5 d-flex align-items-center  justify-content-center" v-for="navItem in HeaderNavItems" >
                     {{ navItem.text }}
                 </li>
             </ul>
