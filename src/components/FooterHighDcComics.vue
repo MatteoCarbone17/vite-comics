@@ -36,9 +36,8 @@
     }
 
    ul{
-
     padding: 2rem;
-
+   
     li{
         list-style-type: none;
     }

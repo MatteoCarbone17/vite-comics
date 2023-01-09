@@ -1,14 +1,15 @@
 <script>
 import HeaderDcComics from './components/HeaderDcComics.vue'
 import MainDcComics from './components/MainDcComics.vue'
-import FooterDcComics from './components/FooterDcComics.vue'
-
+import FooterHighDcComics from './components/FooterHighDcComics.vue'
+import FooterLowDcComics from './components/FooterLowDcComics.vue'
 export default {
 
   components:{
      HeaderDcComics,
      MainDcComics,
-     FooterDcComics,
+     FooterHighDcComics,
+     FooterLowDcComics,
 
   }
  
@@ -17,9 +18,19 @@ export default {
 </script>
 
 <template>
- <HeaderDcComics />
- <MainDcComics />
- <FooterDcComics />
+
+  <header>
+    <HeaderDcComics />
+  </header>
+  <main>
+    <MainDcComics />
+  </main>
+
+  <footer>
+    <FooterHighDcComics />
+    <FooterLowDcComics />
+  </footer>
+ 
 </template>
 
 <style lang="scss">
