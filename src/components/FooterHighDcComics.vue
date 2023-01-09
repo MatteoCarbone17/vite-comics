@@ -173,8 +173,8 @@ export default{
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 d-flex  justify-content-center">
-                    <img src="../assets/img/dc-logo-bg.png" alt="" srcset="">
+                <div class="col-6 d-flex">
+                    <img src="../assets/img/dc-logo-bg.png" class="img-fluid"  alt="" srcset="">
                 </div>
             </div>
         </div>

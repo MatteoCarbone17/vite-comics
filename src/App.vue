@@ -26,7 +26,7 @@ export default {
     <MainDcComics />
   </main>
 
-  <footer>
+  <footer class="fixed-bottom" >
     <FooterHighDcComics />
     <FooterLowDcComics />
   </footer>

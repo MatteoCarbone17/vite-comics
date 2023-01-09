@@ -64,28 +64,30 @@
 
 <template>
  <section class="container-fluid">
-    <div class="row">
-        <div class="col-5 d-flex justify-content-center">
-            <img src="../assets/img/dc-logo.png" class="p-3"  alt="" srcset="">
+    <div class="row p-2">
+        <div class="col-5 wrapper d-flex  align-items-center justify-content-center">
+            <img src="../assets/img/dc-logo.png" alt="" srcset="">
         </div>
         <div class="col-7">
-            <ul class="d-flex p-5">
-                <li class="fs-6 ms-4 " v-for="navItem in HeaderNavItems" >
+            <ul class="d-flex wrapper">
+                <li class="ms-4 d-flex align-items-center" v-for="navItem in HeaderNavItems" >
                     {{ navItem.text }}
                 </li>
             </ul>
         </div>
-
     </div>
  </section>
 </template>
 
 <style lang="scss" scoped >
 
-img{
-    max-width: 100%;
+.wrapper{
+    height: 100px;
 }
 
+img{
+    height: 80%;
+}
 li{
     list-style-type: none;
     

@@ -1,5 +1,39 @@
 <script>
+ export default{
+    data(){
+        return{
+          logoList:[
+            {
+                
+                url:"facebook.png",
+            
+            },
+            {
+                url:"twitter.png",
+               
+               
+            },
+            {
+                url:"youtube.png",
+              
+               
+            },
+            {
+                url:"pinterest.png",
+               
+               
+            },
+            {
+                url:"periscope.png",
+               
+              
+            },
+            
 
+           ]
+        }
+    }
+ }
 </script>
 
 <template>
@@ -12,11 +46,12 @@
                 <div class="col-6">
                     <ul class="d-flex">
                         <li>
-                           follow us
+                            follow us
                         </li>
-                        <li>
-                            <img src="../assets/img/footer-facebook.png" alt="" srcset="">
+                        <li v-for="logo in logoList " >
+                            <img :src="`../src/assets/img/footer-${logo.url}`" alt="">
                         </li>
+                        <!-- 
                         <li>
                             <img src="../assets/img/footer-twitter.png" alt="" srcset="">
                         </li>
@@ -28,7 +63,7 @@
                         </li>
                         <li>
                             <img src="../assets/img/footer-periscope.png" alt="" srcset="">
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -58,5 +93,7 @@ section{
      }
 
    }
+
+  
    
 </style>
