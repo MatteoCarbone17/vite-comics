@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <section class="bg-black">
+    <section>
         <div class="container">
-            <div class="row p-5">
+            <div class="row p-4">
                 <div class="col-6">
                     <button>SING-UP NOW!</button>
                 </div>
@@ -38,9 +38,16 @@
 </template>
 
 <style lang="scss" scoped>
+
+section{
+    background-color: rgb(48, 48, 48);
+}
+
  ul{
     li{
-        list-style-type: none; padding: 1.3rem;
+        list-style-type: none;
+        padding-left: 1.3rem;
+        
     }
 
      :first-child{

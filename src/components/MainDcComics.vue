@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="bg-black">
+  <section>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -20,6 +20,7 @@
 
 section{
   padding: 5rem 0rem ;
+  background-color: rgb(28, 28, 28);
 }
 
 </style>
