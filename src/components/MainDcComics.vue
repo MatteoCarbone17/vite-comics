@@ -90,12 +90,8 @@ data() {
 
 <template>
   <section>
-    <div class="">
-      <div class="wrapper-card">
-        <div class="card">
-           <CardMainComponent v-for="comicItem in CardComicsList"  :imgThumb="comicItem.thumb" :price="comicItem.price" :nameComics="comicItem.series" :typeComics="comicItem.type" />
-        </div>
-      </div>
+    <div class="cards">
+      <CardMainComponent v-for="comicItem in CardComicsList"  :imgThumb="comicItem.thumb" :price="comicItem.price" :nameComics="comicItem.series" :typeComics="comicItem.type" />        
     </div>
   </section>
 </template>
@@ -104,13 +100,17 @@ data() {
 
 section{
   background-color: rgb(28, 28, 28);
-  div.card{
+
+}
+
+
+   div.cards{
     display: flex;
     flex-wrap: wrap;
-    margin: 0  auto;
+    margin: 0 auto;
+   }
 
-  }
-}
+
 
 
 </style>

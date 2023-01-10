@@ -17,7 +17,7 @@ export default {
    <section>
         <div class="card-item">
             <img :src="imgThumb" class="mb-2" alt="" srcset="">
-            <p>
+            <p class="text-center">
                 {{ nameComics }}
             </p>
         </div>
@@ -26,13 +26,21 @@ export default {
 
 <style lang="scss" scoped>
 section{ 
-  
     color: white;
     div.card-item{
-        width: calc(100% / 3 );
-        img{
-            width: 135px;
+        margin: 1rem;
+        width: calc((100% / 6) - 1rem) ;
+     
+       img{
+        width: 150px;
+        height: 100%;
         }
+      
+
+      p{
+        width: 100%;
+      }
+       
     }
 }
 </style>
