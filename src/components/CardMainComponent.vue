@@ -16,7 +16,9 @@ export default {
 <template>
    <section>
         <div class="card-item">
-            <img :src="imgThumb" class="mb-2" alt="" srcset="">
+            <div class="img-wrapper d-flex justify-content-center ">
+                <img :src="imgThumb" class="mb-2" alt="" srcset="">
+            </div>
             <p class="text-center">
                 {{ nameComics }}
             </p>
@@ -26,10 +28,12 @@ export default {
 
 <style lang="scss" scoped>
 section{ 
+     width: calc((100% / 6) - 1rem) ;
     color: white;
+   
     div.card-item{
         margin: 1rem;
-        width: calc((100% / 6) - 1rem) ;
+       
      
        img{
         width: 150px;
