@@ -1,15 +1,15 @@
 <script>
 import HeaderDcComics from './components/HeaderDcComics.vue'
 import MainDcComics from './components/MainDcComics.vue'
-import FooterHighDcComics from './components/FooterHighDcComics.vue'
-import FooterLowDcComics from './components/FooterLowDcComics.vue'
+import FooterTopDcComics from './components/FooterTopDcComics.vue'
+import FooterBottomDcComics from './components/FooterBottomDcComics.vue'
 export default {
 
   components:{
      HeaderDcComics,
      MainDcComics,
-     FooterHighDcComics,
-     FooterLowDcComics,
+     FooterTopDcComics,
+     FooterBottomDcComics,
 
   }
  
@@ -26,9 +26,9 @@ export default {
     <MainDcComics />
   </main>
 
-  <footer class="fixed-bottom" >
-    <FooterHighDcComics />
-    <FooterLowDcComics />
+  <footer>
+    <FooterTopDcComics />
+    <FooterBottomDcComics />
   </footer>
  
 </template>
