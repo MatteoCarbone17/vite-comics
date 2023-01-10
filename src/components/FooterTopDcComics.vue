@@ -173,7 +173,7 @@ export default{
                         </li>
                     </ul>
                 </div>
-                <div class="col-4 d-flex">
+                <div class="col-5">
                     <img src="../assets/img/dc-logo-bg.png" class="img-fluid"  alt="" srcset="">
                 </div>
             </div>
@@ -191,18 +191,19 @@ export default{
 
    ul{
     padding: 2rem;
-   
     li{
         list-style-type: none;
         color: rgb(147, 147, 148);
     }
-
      :first-child{
         font-size: 1.2rem;
         text-transform: uppercase;
         color: white;
        
      }
+   }
 
+   img{
+    width: 400px;
    }
 </style>

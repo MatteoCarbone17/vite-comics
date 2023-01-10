@@ -17,7 +17,7 @@
             {
                 text:"MOVIES",
                 url: "#",
-                active: false,
+                active: true,
             },
             {
                 text:"TV",
@@ -70,7 +70,7 @@
         </div>
         <div class="col-7">
             <ul class="d-flex wrapper">
-                <li class="ms-5 d-flex align-items-center  justify-content-center" v-for="navItem in HeaderNavItems" >
+                <li class="d-flex align-items-center justify-content-center" v-for="navItem in HeaderNavItems" >
                     {{ navItem.text }}
                 </li>
             </ul>
@@ -90,6 +90,12 @@ img{
 }
 li{
     list-style-type: none;
+    line-height: 100px;
+    margin-right: 1rem;
+    &:hover{
+         border-bottom:  rgb(2, 130, 249) 2px solid ;
+    }
+   
     
 }
 

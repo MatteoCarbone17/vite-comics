@@ -26,13 +26,11 @@ export default {
 
 <style lang="scss" scoped>
 section{ 
-    width: calc(100% / 6) ;
+    width: calc((100% / 6) - 2rem ) ;
     color: white;
-
+    margin: 1rem;
+    height: 240px;
     div.img-wrapper{
-        height: 150px;
-        width: 150px;
-
         img{
             width: 100%;
         }

@@ -94,6 +94,9 @@ data() {
       <CardMainComponent v-for="comicItem in CardComicsList"  :imgThumb="comicItem.thumb" :price="comicItem.price" :nameComics="comicItem.series" :typeComics="comicItem.type" />        
     </div>
   </section>
+  <section class="d-flex justify-content-center ">
+    <button>LOAD MORE </button>
+  </section>
 </template>
 
 <style lang="scss" scoped>
@@ -101,6 +104,13 @@ data() {
 section{
   background-color: rgb(28, 28, 28);
 
+  button{
+    background-color: dodgerblue;
+    color: white;
+    padding: .3rem 3.5rem;
+   border-color:dodgerblue ;
+   margin-bottom: 1.8rem;
+  }
 }
 
 
@@ -108,8 +118,8 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     max-width:1000px ;
    
    }
