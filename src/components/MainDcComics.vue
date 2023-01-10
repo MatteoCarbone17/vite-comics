@@ -89,7 +89,7 @@ data() {
 </script>
 
 <template>
-  <section>
+  <section class="d-flex justify-content-center">
     <div class="cards">
       <CardMainComponent v-for="comicItem in CardComicsList"  :imgThumb="comicItem.thumb" :price="comicItem.price" :nameComics="comicItem.series" :typeComics="comicItem.type" />        
     </div>
@@ -107,7 +107,11 @@ section{
    div.cards{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width:1000px ;
+   
    }
 
 
