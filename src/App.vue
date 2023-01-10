@@ -3,6 +3,7 @@ import HeaderDcComics from './components/HeaderDcComics.vue'
 import MainDcComics from './components/MainDcComics.vue'
 import FooterTopDcComics from './components/FooterTopDcComics.vue'
 import FooterBottomDcComics from './components/FooterBottomDcComics.vue'
+import MainBannerBlue from './components/MainBannerBlue.vue';
 export default {
 
   components:{
@@ -10,7 +11,7 @@ export default {
      MainDcComics,
      FooterTopDcComics,
      FooterBottomDcComics,
-
+     MainBannerBlue,
   }
  
 }
@@ -24,6 +25,7 @@ export default {
   </header>
   <main>
     <MainDcComics />
+    <MainBannerBlue />
   </main>
 
   <footer>
