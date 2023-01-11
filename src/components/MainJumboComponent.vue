@@ -11,12 +11,19 @@ export default {
 </template>
 
 <style lang="scss" scoped >
-img{
-    height: 450px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+
+div{
+   
+    img{ 
+        height: 480px; 
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    
+    }
+    
 }
+
 
     
 </style>
