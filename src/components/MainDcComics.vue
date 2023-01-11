@@ -1,9 +1,11 @@
 <script>
 import CardMainComponent from './CardMainComponent.vue';
+import MainJumboComponent from './MainJumboComponent.vue';
 export default {
 
 components:{
     CardMainComponent,
+    MainJumboComponent,
 },
 data() {
   return {
@@ -89,6 +91,9 @@ data() {
 </script>
 
 <template>
+  <section>
+    <MainJumboComponent />
+  </section>
   <section class="d-flex justify-content-center">
     <div class="cards">
       <CardMainComponent v-for="comicItem in CardComicsList"  :imgThumb="comicItem.thumb" :price="comicItem.price" :nameComics="comicItem.series" :typeComics="comicItem.type" />        
